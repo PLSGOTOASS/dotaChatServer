@@ -51,7 +51,7 @@ public class Main {
 
                 boolean isAllChat = allChatInput == 1;
 
-                int robotDelay = 20; // работает крайне нестабильно ниже 20
+                int robotDelay = 75; // работает нестабильно ниже 75
 
                 if (isAllChat) {
                     robot.keyPress(KeyEvent.VK_SHIFT);;
